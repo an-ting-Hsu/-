@@ -1,0 +1,12 @@
+{
+    "name": "hashlin/develop",
+    "authors": [
+        {
+            "name": "Hash543",
+            "email": "alishaqoo@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.26"
+    }
+}

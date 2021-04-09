@@ -23,3 +23,8 @@ echo "沒收到貨款的訂單\n";
 print_r($order_zero);
 echo "黑貓列表中不存在的訂單\n";
 print_r($order_not_exist);
+<?php
+session_start();
+require('vendor/autoload.php'); // 載入 composer
+require('route.php');   // 路由: 決定要去哪一頁，讀取該頁面需要的資料組合介面
+?>
